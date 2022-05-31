@@ -17,7 +17,6 @@ import inspect
 import textwrap
 import pandas as pd
 import altair as alt
-from utils import show_code
 
 from urllib.error import URLError
 
@@ -74,5 +73,3 @@ st.write(
 )
 
 data_frame_demo()
-
-show_code(data_frame_demo)

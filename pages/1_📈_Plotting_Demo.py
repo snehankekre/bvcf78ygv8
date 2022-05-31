@@ -17,7 +17,6 @@ import inspect
 import textwrap
 import time
 import numpy as np
-from utils import show_code
 
 
 def plotting_demo():
@@ -52,5 +51,3 @@ Streamlit. We're generating a bunch of random numbers in a loop for around
 )
 
 plotting_demo()
-
-show_code(plotting_demo)

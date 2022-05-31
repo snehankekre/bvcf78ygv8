@@ -17,7 +17,6 @@ import inspect
 import textwrap
 import pandas as pd
 import pydeck as pdk
-from utils import show_code
 
 
 from urllib.error import URLError
@@ -115,5 +114,3 @@ to display geospatial data."""
 )
 
 mapping_demo()
-
-show_code(mapping_demo)
